@@ -1,5 +1,5 @@
 import React from "react";
-
+// Скилы в SkillStack
 type Skill = {
     id: string;
     name: string;
@@ -7,11 +7,11 @@ type Skill = {
     level: "Begginer" | "Intermediate" | "Advanced";
     category: string;
 };
-
 type SkillCardProps = {
     skill: Skill;
 };
 
+// Компонент карточки скила
 export const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
     const levelColor = {
         Begginer: "bg-green-200",

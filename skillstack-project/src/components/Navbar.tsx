@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-
+// Ссылки для навигации
 export default function Navbar() {
   return (
     <nav className="bg-white shadow px-6 py-4 flex justify-between items-center">
