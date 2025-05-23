@@ -5,12 +5,6 @@ import { SkillList } from "./components/SkillList";
 
 
 export default function App() {
-  const [reload, setReload] = useState(false);
-
-  const handleAddSkill = () => {
-    setReload(!reload);
-  };
-  
   return (
     <div className="p-8 space-y-8">
       <Navbar />
